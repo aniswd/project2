@@ -1,0 +1,120 @@
+/*
+==========================================================================
+Media quiries
+==========================================================================
+*/
+
+@media (min-width: 767px) {
+
+	p,span,a {
+		font-size: 16px!important;
+	}
+
+	h3{
+		font-size: 30px;
+	}
+
+	h5 {
+		font-size: 20px;
+	}
+
+	/* Container */
+	._container {
+		max-width: 1160px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	/* Section */
+	._section {
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+
+	._header {
+		min-width: 100%;
+		left: 0;
+		right: 0;
+		transform: translateX(0);
+	}
+
+	#header {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	._secd_header {
+		bottom: 80%;
+	}
+
+	._hero {
+		min-width: 100%;
+	}
+
+	._hero_container_content ._hero_text {
+		width: 768px;
+		margin: auto;
+		text-align: center;
+	}
+
+	._check_availability {
+		bottom: 0;
+	}
+
+	._check_item_2 a {
+		font-size: 18px;
+	}
+
+	._check_item h6 {
+		font-size: 15px;
+	}
+
+	#hotelThai ._img_box {
+		width: 250px;
+		margin: auto;
+	}
+
+	#resort ._content {
+		max-width: 767px;
+		margin: auto;
+		text-align: center;
+	}
+
+	.owl-nav span {
+		font-size: 34px!important;
+	}
+
+	#facilities ._col_3 {
+		grid-auto-rows: 150px;
+		grid-template-columns: repeat(5, 1fr);
+	}
+
+	
+	#facilities ul li span .fa {
+		font-size: 50px;
+	}
+
+	._comts {
+		font-weight: 400;
+		font-size: 14px!important;
+	}
+
+	#booking ul li ._booking_content h4 {
+		font-size: 20px;
+	}
+
+	#booking ul li ._booking_content p {
+		font-size: 14px!important;
+	}
+
+	#booking {
+		padding-bottom: 0;
+	}
+
+	._contact_info {
+		grid-gap: 40px;
+	}
+
+
+
+}

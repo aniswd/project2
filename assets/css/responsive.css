@@ -61,7 +61,7 @@ Media quiries
 	}
 
 	._check_item .input-group-btn {
-		display: initial!important;
+		display: initial;
 	}
 
 	.form-control, .guests select {
@@ -115,6 +115,10 @@ Media quiries
 
 	.owl-nav span {
 		font-size: 34px!important;
+	}
+
+	#facilities {
+		padding-top: 0;
 	}
 
 	#facilities ._col_3 {

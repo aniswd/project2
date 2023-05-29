@@ -702,10 +702,13 @@ Layout syle
 
 /* Footer */
 
-#footer ._container {
+#footer {
 	background: #000;
+}
+
+#footer ._container {
 	padding-top: 30px;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 }
 
 #footer ._contact_info {

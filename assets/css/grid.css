@@ -103,6 +103,14 @@ Grid layout
 	._col_10,
 	._col_11,
 	._col_12 {
-		grid-template-columns: repeat(1, 1fr);
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 420px) {
+
+	/* Columns */
+	#facilities ._col_3, #footer ._col_3 {
+		grid-template-columns: repeat(3, 1fr);
 	}
 }

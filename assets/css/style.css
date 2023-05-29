@@ -706,11 +706,6 @@ Layout syle
 	background: #000;
 }
 
-#footer ._container {
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-
 #footer ._contact_info {
 	margin-top: 40px;
 	color: #fff;

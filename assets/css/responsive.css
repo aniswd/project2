@@ -61,7 +61,7 @@ Media quiries
 	}
 
 	._check_item .input-group-btn {
-		display: initial;
+		display: initial!important;
 	}
 
 	.form-control, .guests select {

@@ -107,14 +107,6 @@ Media quiries
 		font-size: 14px!important;
 	}
 
-	#booking {
-		padding-bottom: 0;
-	}
-	
-	#footer {
-		padding-bottom: 0;
-	}
-
 	._contact_info {
 		grid-gap: 40px;
 	}

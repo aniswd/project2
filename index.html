@@ -14,11 +14,17 @@
   <link rel="stylesheet" href="assets/css/magnificpopup.css">
   <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
   <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="assets/css/jquery.dateselect.css">
   <link rel="stylesheet" href="assets/css/grid.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
+	<!-- START PRELOADER -->
+   <!--  <div class="preloader">
+        <div class="loader"></div>
+	</div> -->
+	<!-- END PRELOADER -->
   <!-- Header -->
   <header id="header" class="_header _container">
     <div class="_logo">
@@ -84,41 +90,45 @@
           <h2>Sofitel Sumvit Hotel<br/>Bangkok</h2>
           <p>Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Iste Repudiandae Error Totam Commodi Laborum Quaerat Atque Consequuntur Qui Ea, Libero Debitis Soluta Eaque Id Quasi Animi Et Vel Obcaecati, Quibusdam Nemo Placeat Amet.</p>
         </div>
-        <div class="_check_availability">
+        <form class="_check_availability">
           <div class="_check_item">
             <h6>Check In</h6>
             <div class="_date">
-              <div class="_number">8</div>
-                <div class="_month">
-                    <span>May</span><br> 
-                      <i class="fa fa-angle-down"></i>
-                  </div>
+              <input type="text" name="date1" id="date1" class="form-control" data-select="date" value="Select Date">
+				<span class="input-group-btn">
+					<button class="btn btn-primary" type="button" data-toggle="select"><i class="fa fa-calendar"></i></button>
+				</span>
             </div>
           </div>
           <div class="_check_item">
             <h6>Check Out</h6>
             <div class="_date">
-              <div class="_number">10</div>
-                <div class="_month">
-                  <span>May</span> <br>
-                  <i class="fa fa-angle-down"></i>
-                </div>
+              <input type="text" name="date1" id="date1" class="form-control" data-select="date" value="Select Date">
+				<span class="input-group-btn">
+					<button class="btn btn-primary" type="button" data-toggle="select"><i class="fa fa-calendar"></i></button>
+				</span>
             </div>
           </div>
           <div class="_check_item">
             <h6>Guests</h6>
-              <div class="_date">
-                <div class="_number">8</div>
-                  <div class="_month">
-                      <i class="fa fa-angle-up" style="margin-top: -15px;"></i>
-                      <i class="fa fa-angle-down"></i>
-                    </div>
+              <div class="guests">
+               <select id="cars">
+				  <option value="1">1</option>
+				  <option value="2">2</option>
+				  <option value="3">3</option>
+				  <option value="4">4</option>
+				  <option value="4">5</option>
+				  <option value="4">6</option>
+				  <option value="4">7</option>
+				  <option value="4" selected>8</option>
+				</select>
               </div>
           </div>
           <div class="_check_item_2">
-            <a href="#">Check<br>Availability</a>
+            <button class="btn btn-primary" type="button">Check<br/>Availability
+            </button>
           </div>
-        </div>
+        </form>
       </div>
     </div>
   </section>
@@ -454,6 +464,7 @@
   <script src="assets/js/jquery-3.3.1.min.js"></script>
   <script src="assets/js/magnificpopup.js"></script>
   <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/jquery.dateselect.min.js"></script>
   <script src="assets/js/plugin.js"></script>
   <script src="assets/js/custom.js"></script>
 </body>

@@ -318,7 +318,7 @@ Layout syle
 	left: 0;
 	right: 0;
 	z-index: 99;
-	background: rgba(0,0,0,0.8);
+	background: rgba(0,0,0,1);
 	padding: 10px;
 }
 
@@ -702,19 +702,22 @@ Layout syle
 }
  
 #facilities ul li {
-	border: 1px solid #F02837;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: 1px solid #333;
 	text-align: center;
 	padding: 10px;
 	transition: all .5s;
-	cursor: pointer;
+	padding: 0 20px;
 }
 
 #facilities ul li:nth-child(odd) {
-	background: #F02837;
+	background: #777;
 }
 
 #facilities ul li:nth-child(odd) span {
-	color: #fff;
+	color: #FDAE2A;
 }
 
 #facilities ul li:nth-child(odd) p {

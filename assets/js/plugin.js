@@ -1,6 +1,13 @@
 
 $(function() {
 
+    /*// PRELOADER
+    $(window).on("load", function() {
+        setTimeout(function(){
+             $(".preloader").addClass("loaded");
+        },4000);
+    });*/
+
 
     // OWL CAROUSEL resort
     $("#photoGal .owl-carousel").owlCarousel({
@@ -11,7 +18,8 @@ $(function() {
             responsiveClass: true,
             responsive: {
                 0: {
-                    items: 1,
+                    items: 2,
+                    nav:true
                 },
                 700: {
                     items: 3,

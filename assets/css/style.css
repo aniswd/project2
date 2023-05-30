@@ -709,7 +709,6 @@ Layout syle
 	text-align: center;
 	padding: 10px;
 	transition: all .5s;
-	padding: 0 20px;
 }
 
 #facilities ul li:nth-child(odd) {

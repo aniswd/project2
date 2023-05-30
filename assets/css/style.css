@@ -564,7 +564,9 @@ Layout syle
 	cursor: pointer;
 	transition: all .5s;
 }
-
+.date-select .select span.num {
+	    font-size: 15px;
+}
 ._check_item_2 .btn {
 	border: 0;
 	background: #fff;
